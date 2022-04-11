@@ -5,7 +5,7 @@ const Manager = require('../lib/Manager.js');
 
 const testManager = {name: 'test', id: 1, email: 'email@email.com', officeNumber: 1};
 
-test('Check required properties for an engineer', () => {
+test('Check required properties for a manager', () => {
     const newManager = new Manager(testManager);
     const testName = 'test';
     const testID = 1;

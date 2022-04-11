@@ -5,7 +5,7 @@ const Intern = require('../lib/Intern.js');
 
 const testIntern = {name: 'test', id: 1, email: 'email@email.com', school: 'test'};
 
-test('Check required properties for an engineer', () => {
+test('Check required properties for an intern', () => {
     const newIntern = new Intern(testIntern);
     const testName = 'test';
     const testID = 1;
