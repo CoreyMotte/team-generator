@@ -1,20 +1,19 @@
 const fs = require('fs');
 
 function generateEmployee(input) {
-    let unique;
     ({name, id, email, officeNumber, school, github} = input)
     
 
     if (officeNumber) {
-        unique = `Office: ${officeNumber}`;
+        let unique = `Office: ${officeNumber}`;
     }
 
     if (school) {
-        unique = `School: ${school}`;
+        let unique = `School: ${school}`;
     }
 
     if (github) {
-        unique = `GitHub: ${github}`;
+        let unique = `GitHub: ${github}`;
     }
 
     let cardContent = `
@@ -62,7 +61,7 @@ module.exports = function (input) {
         <div class="container" id="employee-cards">
 
             ${generateCards(input)}
-            
+
         </div>
     </body>
     </html>
