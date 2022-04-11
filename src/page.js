@@ -18,7 +18,7 @@ function generateEmployee(input) {
     }
 
     let cardContent = `
-    <div class="card" style="width: 18rem;">
+    <div class="card col" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-title"> ${name} </h5>
             <h6 class="card-subtitle mb-2 text-muted"> ${input.constructor.name} </h6>
@@ -59,7 +59,8 @@ module.exports = function (input) {
             </div>
         </div>
     
-        <div class="container" id="employee-cards">
+        <div class=
+        <div class="container row align-items-center" id="employee-cards">
 
             ${generateCards(input)}
 
