@@ -3,17 +3,18 @@ const fs = require('fs');
 function generateEmployee(input) {
     ({name, id, email, officeNumber, school, github} = input)
     
+    let unique;
 
     if (officeNumber) {
-        let unique = `Office: ${officeNumber}`;
+        unique = `Office: ${officeNumber}`;
     }
 
     if (school) {
-        let unique = `School: ${school}`;
+        unique = `School: ${school}`;
     }
 
     if (github) {
-        let unique = `GitHub: ${github}`;
+        unique = `GitHub: ${github}`;
     }
 
     let cardContent = `
