@@ -59,7 +59,6 @@ module.exports = function (input) {
             </div>
         </div>
     
-        <div class=
         <div class="container row align-items-center" id="employee-cards">
 
             ${generateCards(input)}
