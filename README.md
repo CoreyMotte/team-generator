@@ -18,6 +18,7 @@
   Clone the repository.
   ## Usage
   Run index.js
+  A video demonstration of the application can be found [here](https://youtu.be/rhuhEHXSzF0).
   ## How to Contribute
   [Contributor Covenant](https://www.contributor-covenant.org/)  
   N/A
